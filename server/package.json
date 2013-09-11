@@ -4,7 +4,6 @@
 	"description": "A simple application using backbone.",
 	"dependencies":{
 		"express":"~3.4.0",
-		"path":"~0.4.9",
 		"mongoose":"~3.6.19"
 	}
 }

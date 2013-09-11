@@ -1,6 +1,7 @@
 # Module dependencies
 application_root = __dirname
 express = require('express')
+# node.js already has "Path", we don't need to depends on this one.
 path = require('path')
 mongoose = require('mongoose')
 
@@ -32,6 +33,11 @@ app.get('/api', (request,response)->
 
 # Connect to database
 mongoose.connect('mongodb://localhost/AirDB')
+
+# Schema
+calibrationReport = new mongoose.Schema({
+
+	})
 
 # Start server
 port = 1920
