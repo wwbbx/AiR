@@ -1,0 +1,22 @@
+Html,body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+#page{
+	min-height: 100%;
+	height: 100%
+	position: relative;
+}
+
+#main{
+	padding-bottom: 75px;
+}
+
+#footer{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	height: 75px;
+}
