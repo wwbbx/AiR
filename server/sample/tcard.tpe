@@ -1,0 +1,576 @@
+SAVE
+DONE
+CATEGORY
+Freq_Standard
+FILE
+105B
+PARTNUMBER
+
+VERSION
+
+UNCERTAINTIES
+no
+MODEL_NUMBER
+105B
+SERIAL_NUMBER
+
+OPTIONS
+
+ADDRESS
+
+timeout
+2000
+ID_NO
+
+CLASS_MODEL
+no
+DESCRIPTION
+Quartz Oscillator
+MANUFACTURER
+Hewlett-Packard Co.
+CUSTOMER
+Fred Bloggs & Co
+GUARDBAND
+none
+TESTED_BY
+1410
+ENTITY
+9061
+TEMPERATURE
+23 +/- 23
+HUMIDITY
+20-90
+REFERENCE
+123
+DATE
+
+RESULT_TYPE
+
+EQUIP
+3585A
+EQUIP_SERIAL
+
+TRACE
+
+CAL_DUE
+
+EQUIP_ADDRESS
+
+LOCK
+0
+EQUIP
+34401A
+EQUIP_SERIAL
+
+TRACE
+
+CAL_DUE
+
+EQUIP_ADDRESS
+
+LOCK
+0
+EQUIP
+5071A
+EQUIP_SERIAL
+
+TRACE
+
+CAL_DUE
+
+EQUIP_ADDRESS
+
+LOCK
+0
+EQUIP
+53131A
+EQUIP_SERIAL
+
+TRACE
+
+CAL_DUE
+
+EQUIP_ADDRESS
+
+LOCK
+0
+EQUIP
+E5503A
+EQUIP_SERIAL
+
+TRACE
+
+CAL_DUE
+
+EQUIP_ADDRESS
+
+LOCK
+0
+EQUIP
+8663A
+EQUIP_SERIAL
+
+TRACE
+
+CAL_DUE
+
+EQUIP_ADDRESS
+
+LOCK
+0
+EQUIP
+11048C
+EQUIP_SERIAL
+
+TRACE
+
+CAL_DUE
+
+EQUIP_ADDRESS
+
+LOCK
+0
+EQUIP
+54600A
+EQUIP_SERIAL
+
+TRACE
+
+CAL_DUE
+
+EQUIP_ADDRESS
+
+LOCK
+0
+EQUIP
+90611K
+EQUIP_SERIAL
+
+TRACE
+
+CAL_DUE
+
+EQUIP_ADDRESS
+
+LOCK
+0
+TEST
+Circuit Meter Checks
+PROCEDURE
+tests/defaults/proc.htm
+COLUMN
+Test Conditions
+COLUMN
+Units,REPORT=N
+COLUMN
+Lower Limit,UNIT=Y,TYPE=LL
+COLUMN
+Measured,INPUT=Y,UNIT=Y,TYPE=MV
+COLUMN
+Upper Limit,UNIT=Y,TYPE=UL
+Test Conditions
+Supply
+Units
+
+Lower Limit
+70
+Measured
+
+Upper Limit
+90
+Test Conditions
++18.7V
+Units
+
+Lower Limit
+70
+Measured
+
+Upper Limit
+90
+Test Conditions
+Oven
+Units
+
+Lower Limit
+50
+Measured
+
+Upper Limit
+90
+Test Conditions
+5 MHz
+Units
+
+Lower Limit
+70
+Measured
+
+Upper Limit
+90
+Test Conditions
+1 MHz
+Units
+
+Lower Limit
+70
+Measured
+
+Upper Limit
+90
+Test Conditions
+100 kHz
+Units
+
+Lower Limit
+70
+Measured
+
+Upper Limit
+90
+TEST
+Output Voltage Check 
+PROCEDURE
+tests/defaults/proc.htm
+COLUMN
+Test Conditions
+COLUMN
+Units,REPORT=N
+COLUMN
+Lower Limit,UNIT=Y,TYPE=LL
+COLUMN
+Measured,INPUT=Y,UNIT=Y,TYPE=MV
+Test Conditions
+5 MHz into 50 Ohm
+Units
+Vrms
+Lower Limit
+1.0
+Measured
+
+Test Conditions
+1 MHz into 50 Ohm
+Units
+Vrms
+Lower Limit
+1.0
+Measured
+
+Test Conditions
+100 kHz into 50 Ohm
+Units
+Vrms
+Lower Limit
+1.0
+Measured
+
+Test Conditions
+Clock into 1000 Ohm
+Units
+Vrms
+Lower Limit
+0.5
+Measured
+
+TEST
+Output Waveform Check
+PROCEDURE
+tests/defaults/proc.htm
+COLUMN
+Test Conditions
+COLUMN
+Pass/Fail,INPUT=Y,TYPE=MV,DEFAULT=PASS/FAIL
+Test Conditions
+5 MHz into 50 Ohm
+Pass/Fail
+PASS/FAIL
+Test Conditions
+1 MHz into 50 Ohm
+Pass/Fail
+PASS/FAIL
+Test Conditions
+100 kHz into 50 Ohm
+Pass/Fail
+PASS/FAIL
+Test Conditions
+Clock into 1000 Ohm
+Pass/Fail
+PASS/FAIL
+TEST
+Oscillator Frequency Check
+PROCEDURE
+MUTS/Freq_Standard/105B/105b_freq_offset.pdf
+COLUMN
+Test Conditions
+COLUMN
+Units,REPORT=N
+COLUMN
+Measured,INPUT=Y,UNIT=Y,TYPE=MV
+COLUMN
+Upper Limit,UNIT=Y,TYPE=UL
+Test Conditions
+Frequency Drift over 24Hr period
+Units
+E-10 Hz
+Measured
+
+Upper Limit
+5.00
+Test Conditions
+Frequency Offset
+Units
+E-8 Hz
+Measured
+
+Upper Limit
+5.00
+TEST
+Non-Harmonic Distortion
+PROCEDURE
+tests/defaults/proc.htm
+COLUMN
+Fundamental Output
+COLUMN
+Spurious Frequency
+COLUMN
+Units,REPORT=N
+COLUMN
+Measured,INPUT=Y,UNIT=Y,TYPE=MV
+COLUMN
+Upper Limit,UNIT=Y,TYPE=UL
+Fundamental Output
+5 MHz
+Spurious Frequency
+4 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-80
+Fundamental Output
+
+Spurious Frequency
+4.9 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-80
+Fundamental Output
+
+Spurious Frequency
+5.1 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-80
+Fundamental Output
+
+Spurious Frequency
+6 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-80
+Fundamental Output
+1MHz
+Spurious Frequency
+900 kHz
+Units
+dBc
+Measured
+
+Upper Limit
+-80
+Fundamental Output
+
+Spurious Frequency
+1.1 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-80
+Fundamental Output
+100 kHz
+Spurious Frequency
+100 kHz to 1MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-80
+TEST
+Harmonic Distortion
+PROCEDURE
+tests/defaults/proc.htm
+COLUMN
+Fundamental Output
+COLUMN
+Harmonic Frequency
+COLUMN
+Units,REPORT=N
+COLUMN
+Measured,INPUT=Y,UNIT=Y,TYPE=MV
+COLUMN
+Upper Limit,UNIT=Y,TYPE=UL
+Fundamental Output
+5 MHz
+Harmonic Frequency
+10 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-40
+Fundamental Output
+
+Harmonic Frequency
+15 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-40
+Fundamental Output
+
+Harmonic Frequency
+20 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-40
+Fundamental Output
+1 MHz
+Harmonic Frequency
+2 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-40
+Fundamental Output
+
+Harmonic Frequency
+3 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-40
+Fundamental Output
+
+Harmonic Frequency
+4 MHz
+Units
+dBc
+Measured
+
+Upper Limit
+-40
+Fundamental Output
+100 kHz
+Harmonic Frequency
+200 kHz
+Units
+dBc
+Measured
+
+Upper Limit
+-40
+Fundamental Output
+
+Harmonic Frequency
+300 kHz
+Units
+dBc
+Measured
+
+Upper Limit
+-40
+Fundamental Output
+
+Harmonic Frequency
+400 kHz
+Units
+dBc
+Measured
+
+Upper Limit
+-40
+Fundamental Output
+
+Harmonic Frequency
+500 kHz
+Units
+dBc
+Measured
+
+Upper Limit
+-40
+TEST
+Short Term Stability(Phase Noise)
+PROCEDURE
+MUTS/Freq_Standard/105B/105b_phase_n.pdf
+COLUMN
+Offset from 5 MHz
+COLUMN
+Units,REPORT=N
+COLUMN
+Measured,INPUT=Y,UNIT=Y,TYPE=MV
+COLUMN
+Upper Limit,UNIT=Y,TYPE=UL
+Offset from 5 MHz
+1 Hz
+Units
+dBc
+Measured
+
+Upper Limit
+-90
+Offset from 5 MHz
+10 Hz
+Units
+dBc
+Measured
+
+Upper Limit
+-120
+Offset from 5 MHz
+100 Hz
+Units
+dBc
+Measured
+
+Upper Limit
+-126
+Offset from 5 MHz
+1000 Hz
+Units
+dBc
+Measured
+
+Upper Limit
+-146
+Offset from 5 MHz
+10 000 Hz
+Units
+dBc
+Measured
+
+Upper Limit
+-150
